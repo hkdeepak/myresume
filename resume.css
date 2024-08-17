@@ -1,0 +1,76 @@
+*{
+    margin:2px;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 800px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left{
+position: relative;
+background: #003147;
+padding: 40px;
+}
+.container .right{
+    position: relative;
+    background: white;
+    padding: 00px;
+    }
+.left .photo img{
+    height:200px;width: 200px;
+   
+    border-radius: 50%;
+    margin-top: -20px;
+}    
+.contact{
+    position:relative;
+    margin-top: 10px;
+}
+.contact h2{margin-left: -10px;
+    color:aqua;
+    font-weight: 800;
+}
+.contact li{list-style-type: none;margin-left:-15px;display: inline-block;}
+.contact ul li span{color:white;}
+.contact ul li span i{color:lightblue;}
+.contact h3{color:lime;margin-left: -5px;}
+.contact ul li{color:white;}
+.contact h4{color:yellowgreen;}
+.lang_eng{height: 7px;width: 100%;border: 1px solid black;}
+.lang_engcolor{margin:0px;position: relative;height: 100%;width: 50%;background-image: linear-gradient(30deg,red,green,pink,blue);}
+.lang_hindi{height: 7px;width:100%;border:
+     1px solid black;}
+.lang_hindicolor{margin:0px;position:relative;height: 100%;width: 75%;background-image: linear-gradient(30deg,red,green,pink,blue);}
+.lang_odia{height: 7px;width:100%;border:
+    1px solid black;}
+.lang_odiacolor{margin:0px;position:relative;height: 100%;width: 90%;background-image: linear-gradient(30deg,red,green,pink,blue);}    
+.right p{font-weight: 500;font-size: larger;}
+.htm{height: 7px;width: 60%;border: .5px solid black}
+.right h2{color:blue}
+.htm .htm_color{position:relative;margin: 0px;height:100%;width:80%;background-color:rgb(181, 96, 195);}
+.css{height: 7px;width: 60%;border: .5px solid black}
+.css .css_color{position:relative;margin: 0px;height:100%;width:70%;background-color:rgb(181, 96, 195);}
+.js{height: 7px;width: 60%;border: .5px solid black}
+.js .js_color{position:relative;margin: 0px;height:100%;width:50%;background-color:rgb(181, 96, 195);}
+.c{height: 7px;width: 60%;border: .5px solid black}
+.c .c_color{position:relative;margin: 0px;height:100%;width:88%;background-color:rgb(181, 96, 195);}
+.py{height: 7px;width: 60%;border: .5px solid black}
+.py .py_color{position:relative;margin: 0px;height:100%;width:78%;background-color:rgb(181, 96, 195);}
+.java{height: 7px;width: 60%;border: .5px solid black}
+.java .java_color{position:relative;margin: 0px;height:100%;width:58%;background-color:rgb(181, 96, 195);}
+.right ul{list-style-type: none;
+font-weight: bold;}
